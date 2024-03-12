@@ -1,6 +1,11 @@
-video url: 
+* video url: 
 
 https://www.youtube.com/watch?v=Nxg6UfofZX0
 
-video stop: 
-25.31
+* video stop: 
+1.48.43
+
+* github url: 
+
+https://github.com/sergeybabann/desire-original.babann
+
