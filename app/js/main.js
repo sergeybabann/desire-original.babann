@@ -7,7 +7,8 @@ $(function () {
     });
 
     $('.top__slider').slick({
-        dots: true,
-        arrows: false
+        dots: true, // включение dots
+        arrows: false, // выключение стрелок
+        fade: true // плавно меняется 
     });
 })

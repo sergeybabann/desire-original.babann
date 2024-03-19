@@ -11,6 +11,7 @@
     align-items: center;
     height: 120px;
   }
+
   &__btn {
     background-color: transparent;
     border: none;
@@ -28,10 +29,12 @@
   &__list {
     display: flex;
   }
+
   &__list-item {
     padding-left: 45px;
     padding-right: 35px;
   }
+
   &__list-link {
     @extend %title-font;
     color: rgba(54, 56, 56, 0.9);
@@ -83,7 +86,7 @@
       width: 16px;
       height: 12px;
     }
-  }
+  } // foote__info-email
 
   &__form {
     display: flex;
@@ -101,7 +104,7 @@
       line-height: 27;
       color: #a1a1a1;
     }
-  }
+  } // footer__info-input
 
   &__form-button {
     background-color: $title;
@@ -132,26 +135,30 @@
       width: 16px;
       height: 16px;
     }
-  }
+  } // footer__social-link
 
   /*----- SVG Icons -----*/
   &__social-link--facebook::before {
     background-image: url(../images/facebook.svg);
   }
+
   &__social-link--instagram::before {
     background-image: url(../images/instagram.svg);
     width: 14px;
     height: 14px;
     top: 4px;
   }
+
   &__social-link--pinterest::before {
     background-image: url(../images/pinterest.svg);
   }
+
   &__social-link--whatsapp::before {
     background-image: url(../images/whatsapp.svg);
     width: 14px;
     height: 14px;
   }
+
   &__social-link--youtube::before {
     background-image: url(../images/youtube.svg);
     width: 18px;
@@ -183,7 +190,7 @@
     text-align: center;
     color: #a1a1a1;
   }
-}
+} // footer
 
 .rightside-menu {
   position: absolute;
@@ -208,15 +215,18 @@
     margin-left: 50px;
     margin-bottom: 60px;
   }
+
   &__content {
     text-align: center;
     max-width: 485px;
     margin: 0 auto;
   }
+
   &__logo {
     margin-bottom: 40px;
     display: inline-block;
   }
+
   &__title {
     color: $title;
     @extend %title-font;
@@ -236,14 +246,54 @@
       height: 1px;
       background: rgb(109, 114, 120);
     }
-  }
+  } // rightside-menu__title
+
   &__text {
     margin-bottom: 75px;
   }
+
   &__images {
     max-width: 485px;
   }
-}
+} // rightside-menu
 
 .top {
-}
+  &__slider-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__slider-img {
+    margin-left: -15%;
+  }
+
+  &__slider-info {
+    max-width: 645px;
+    margin-left: 25px;
+  }
+
+  &__slider-title {
+    color: $title;
+    font-size: 110px;
+    line-height: 135px;
+    padding-bottom: 26px;
+    margin-bottom: 26px;
+    position: relative;
+
+    &::after {
+      // line в макете
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 185px;
+      background: #6d7278;
+      bottom: 0;
+      height: 1px;
+    } // top__slider-title::after
+  } // top__slider-title
+
+  &__slider-text {
+    max-width: 585px;
+  } // top__slider-text
+} // top
