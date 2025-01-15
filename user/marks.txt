@@ -1,0 +1,4 @@
+* key commands *
+
+мульти редактирование кода:
+alt + left button of mouse 

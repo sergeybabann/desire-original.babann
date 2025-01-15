@@ -1,0 +1,23 @@
+* video url: 
+
+https://www.youtube.com/watch?v=Nxg6UfofZX0
+
+* new video stop: 
+25.11
+
+* old video stop: 
+3.24.36
+
+* github url: 
+
+https://github.com/sergeybabann/desire-original.babann   
+
+
+
+---------- Название видео ----------
+Верстка сайта. Верстаю многостраничный сайт, использую GULP, SCSS, БЭМ
+
+
+
+
+
